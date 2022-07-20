@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Login | Mynaukri
+    </title>
+    <link rel="icon"
+        href="https://w7.pngwing.com/pngs/373/665/png-transparent-naukri-com-employment-website-job-hunting-online-job-search-india-employment-online-job-search-thumbnail.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="Login.css">
+
+
+
+</head>
+
+<body>
+
+
+    <div id="navbar">
+        <div>
+            <div id="logo"><a href=""><img src="images/naukri_Logo.png" alt="error"></a>
+            </div>
+
+            <div> Haven't Registered ? <a href="Register.html"> Register </a> here </div>
+
+        </div>
+    </div>
+
+    <div id="container">
+
+        <div class="left">
+            <img src="images/template.png" alt="">
+        </div>
+
+        <div class="right">
+
+            <form id="form">
+
+                <h2>Login</h2>
+
+                
+                <div class="inputDivs">
+                    <label for="">Username</label><br />
+                    <input autocomplete="off" type="text" id="username" placeholder="Create Your Username"><br />
+                </div>
+
+                <div class="inputDivs">
+                    <label for="">Password</label><br />
+                    <input autocomplete="off" id="password" type="password" placeholder="Create Your Password" />
+                </div>
+
+                <div id="otp">
+
+                    <button onclick="LogIn()" id="login" type="button">Log In</button>
+                    <a href="#">Use OTP to logIn</a>
+
+                </div>
+
+                <div id="googleDiv">
+                    <p id="OR">Or</p>
+                    <div id="googleButton">
+                        <img src="images/google.png"
+                            alt="">
+                        <h4>Sign in with Google</h4>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
+
+
+
+<script src="login.js"></script>

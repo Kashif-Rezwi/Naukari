@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: #f0f2f7;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  margin-left: 20px;
+}
+
+
+
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  height: 60px;
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 1px 2px;
+  align-content: center;
+}
+
+#navbar>div {
+  width: 100%;
+  margin: auto;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: #445577;
+  box-sizing: border-box;
+}
+
+#navbar>div a {
+  text-decoration: none;
+  color: #5c97e3;
+  font-weight: bold;
+}
+
+
+.left {
+  width: 450px;
+}
+
+.left > img {
+  width: 100%;
+  box-shadow: rgba(1, 162, 255, 0.2) 0px 7px 29px 0px;
+}
+
+
+.right {
+  background-color: #ffffff;
+  width: 400px;
+  height: 500px;
+  padding: 20px 30px;
+  box-shadow: rgba(1, 162, 255, 0.2) 0px 7px 29px 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin: auto;
+  width: 95%;
+  text-align: left;
+}
+
+
+label {
+  font-size: 14px;
+  color: #445577;
+  font-weight: bolder;
+}
+
+
+.inputDivs input {
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  color: #445577;
+  outline: none;
+}
+
+
+.inputDivs{
+  margin: 20px 0px;
+}
+
+
+#login {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#login:hover {
+  background-color: #0c6cda;
+}
+
+#otp > a {
+  color: #4a90e2;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#otp {
+  text-align: center;
+}
+
+#googleDiv {
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#OR {
+  position:relative;
+  top: -10px;
+  left: 0px;
+  background-color: white;
+  padding: 0px 5px;
+  color: gray;
+}
+
+
+#googleButton > img{
+  width: 25px;
+  margin-right: 50px;
+}
+
+
+#googleButton{
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 50px;
+  padding: 8px 10px;
+  width: 310px;
+  color: gray;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
