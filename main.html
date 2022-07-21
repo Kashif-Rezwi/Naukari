@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gainsboro;
+            display: flex;
+            justify-content: center;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-weight: bold;
+            font-family: Arial;
+        }
+
+        #mainB {
+            border: 1px solid black;
+            width: 80%;
+            background-color: white;
+        }
+
+        #B1 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+
+        #sp1 {
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        #searchbar {
+            margin-right: 30px;
+        }
+
+        form.example input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 80%;
+            background: #f1f1f1;
+        }
+
+        form.example button {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+        }
+
+        form.example button:hover {
+            background: #0b7dda;
+        }
+
+        form.example::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        #tab {
+            display: flex;
+            width: 100%;
+            background-color: #EFEFEF;
+        }
+
+        .tabs {
+            display: flex;
+            border: 1px solid black;
+            width: 3.5%;
+            justify-content: center;
+            padding: 10px 0px 10px 0px;
+            text-decoration: none;
+            color: black;
+            /* font-weight: normal; */
+            font-size: 14px;
+        }
+
+        .tabs:first-child {
+            width: 7%;
+        }
+        #Cmpny{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            margin-top: 30px;
+            margin-left: 20px;
+            /* margin-right: 20px; */
+        }
+        #Cmpny>a{
+            color: #666666;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainB">
+        <div id="B1"></div>
+        <div id="tab"></div>
+        <div id="Cmpny">
+            <a href="http://">24/7 Customer Jobs</a>
+            <a href="http://">3D PLM Software Jobs</a>
+            <a href="http://">3i Infotech Jobs</a>
+            <a href="http://">AAPC India Hotel Management Jobs</a>
+            <a href="http://">ACC Jobs</a>
+            <a href="http://">ACT Television Jobs</a>
+            <a href="http://">ADP Jobs</a>
+            <a href="http://">AIG Analytics & Services Jobs</a>
+            <a href="http://">ANG INDUSTRIES Jobs</a>
+            <a href="http://">ANI Technologies Jobs</a>
+            <a href="http://">ANZ Support Services Jobs</a>
+            <a href="http://">ARSTEG Solutions Pvt Ltd Jobs</a>
+            <a href="http://">ASAP Info Systems Jobs</a>
+            <a href="http://">ASM Technologies Jobs</a>
+            <a href="http://">AT&T Jobs</a>
+            <a href="http://">AVEVA Software Jobs</a>
+            <a href="http://">AXA Technology Services Jobs</a>
+            <a href="http://">AXIS IT & T Jobs</a>
+            <a href="http://">Abbott Healthcare Jobs</a>
+            <a href="http://">Accel Frontline Jobs</a>
+            <a href="http://">Accenture Jobs</a>
+            <a href="http://">Adani Enterprises Jobs</a>
+            <a href="http://">Aditi Technologies Jobs</a>
+            <a href="http://">Aditya Birla Group Jobs</a>
+            <a href="http://">Aditya Birla Retail Jobs</a>
+            <a href="http://">Adlabs Entertainment Jobs</a>
+            <a href="http://">Adobe Jobs</a>
+            <a href="http://">Aegis Jobs</a>
+            <a href="http://">Aegon Religare Jobs</a>
+            <a href="http://">African Commodities DMCC Jobs</a>
+            <a href="http://">Agilis International Jobs</a>
+            <a href="http://">Agility Jobs AgreeYa Mobility Jobs</a>
+            <a href="http://">Agreeya Solutions Jobs</a>
+            <a href="http://">AirWatch Technologies Jobs</a>
+            <a href="http://">AirWatch Technologies Jobs</a>
+            <a href="http://">Aircel Jobs Ajax Fiori Jobs</a>
+            <a href="http://">Akamai Jobs</a>
+            <a href="http://">Akamai Technologies Jobs</a>
+            <a href="http://">Alcatel-Lucent Jobs</a>
+            <a href="http://">Alembic Pharma Jobs</a>
+            <a href="http://">Alere Medical Jobs</a>
+            <a href="http://">Alert Enterprise Jobs</a>
+            <a href="http://"> AllServices Global Jobs</a>
+            <a href="http://">Alliance Global Services Jobs</a>
+            <a href="http://"> Allianz - AMOS Jobs</a>
+            <a href="http://">Allianz Cornhill Jobs</a>
+            <a href="http://"> Allied Digital ServicesJobs</a>
+            <a href="http://"> Allscripts Jobs</a>
+            <a href="http://"> Allstate Solutions Jobs</a>
+            <a href="http://"> Alstom Transport Jobs</a>
+            <a href="http://"> Altair Engineering Jobs</a>
+            <a href="http://"> Altimetrik Jobs</a>
+            <a href="http://"> Altisource</a>
+            <a href="http://">Business Solutions Jobs/a>
+            <a href="http://"> Amadeus Jobs</a>
+            <a href="http://"> Amadeus Software Labs Jobs</a>
+            <a href="http://"> Amar Ujala Jobs</a>
+            <a href="http://"> Amarprakash Developers Jobs</a>
+            <a href="http://"> Amazon Development Centre Jobs</a>
+            <a href="http://"> Ambuja Cements Jobs</a>
+            <a href="http://"> Amdocs Jobs</a>
+            <a href="http://">American Express Jobs</a>
+            <a href="http://"> Ameriprise Jobs</a>
+            <a href="http://">Amicorp Group Jobs</a>
+            <a href="http://"> Amity University Jobs</a>
+            <a href="http://">Ample Technologies Jobs</a>
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="module">
+
+    import B1 from './components/one.js'
+
+    document.getElementById('B1').innerHTML = B1()
+
+    import tab from './components/two.js'
+
+    document.getElementById('tab').innerHTML = tab()
+</script>
