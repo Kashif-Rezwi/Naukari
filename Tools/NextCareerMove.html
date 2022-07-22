@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                body{
+            background-color: #efefef;
+            font-family: sans-serif;
+        }
+        #dashboard{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 65%;
+            height: auto;
+            margin: auto;
+        }
+        #one{
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            width: 100%;
+            height: auto;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px 10px 30px 20px;
+            margin-top: 30px;
+        }
+        #two{
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            width: 100%;
+            height: auto;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px 10px 30px 20px;
+            /* margin-top: 15px; */
+        }
+        #three{
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            width: 100%;
+            height: auto;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px 10px 30px 20px;
+            margin-top: 30px;
+        }
+        .img1{
+            width: 30px;
+            height: 26px;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        #Threeb3{
+            display: flex;
+        }
+        p{
+            font-size: 14px;
+        }
+        h2{
+            font-size: 18px;
+            color: #333333;
+        }
+        #b1{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .b1div{
+            border-left: 1px solid black;
+        }
+        .b1header{
+            font-size: 12px;
+            padding-right: 50px;
+            padding-left: 40px;
+        }
+        #paradiv{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        #para1 span{
+            color: #5E81F4;
+        }
+        #para1{
+            margin-right: 20px;
+        }
+        #header1{
+            margin-left: 20px;
+            padding-top: 30px;
+        }
+        #twoOne{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #two1
+        {
+            width: max-content;
+            padding: 10px 20px 10px 20px;
+            background-color: #5E81F4;
+            color: white;
+            font-weight: bold;
+        }
+        #two2{
+            display: flex;
+            justify-content: center;
+            border-top: 1px solid #333333;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="dashboard">
+        <div id="one"></div>
+
+        <!-- <div id="div"></div> -->
+        <div id="paradiv">
+            <h2 id="header1">Your next career move</h2>
+            <p id="para1">Profile not updated? <span>Edit</span></p>
+        </div>
+
+        <div id="two"></div>
+    
+        <div id="three"></div>
+    </div>
+</body>
+</html>
+<script type="module">
+
+import one from './js2/NCMone.js'
+
+document.getElementById('one').innerHTML = one()
+
+import two from './js2/NCMtwo.js'
+
+document.getElementById('two').innerHTML = two()
+
+import three from './js2/NCMthree.js'
+
+document.getElementById('three').innerHTML = three()
+
+// import div from './js2/NCM.js'
+
+// document.getElementById('div').innerHTML = div()
+
+</script>
