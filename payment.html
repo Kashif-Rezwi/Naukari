@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="icon"
+        href="https://w7.pngwing.com/pngs/373/665/png-transparent-naukri-com-employment-website-job-hunting-online-job-search-india-employment-online-job-search-thumbnail.png"
+        type="image/x-icon">
+</head>
+<body>
+    <div id="navbar">
+        <img src="images/logo.png" alt="">
+        <div id="shield">
+            <img src="images/shield.png" alt="">
+            <div>
+                <p>Buy Safely with Naukri.com</p>
+                <p>We support secure payment methods</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="container">
+        <div class="paymentContainer">
+            <div class="payment-Heading">Choose Payment Mode</div>
+            <div class="payment-item">
+               <div class="payment-itemLeft">
+                  <div class="paymentOptions paymentOptions-UPI">BHIM UPI</div>
+                  <div class="paymentOptions paymentOptions-Card">Credit/Debit Card</div>
+                  <div class="paymentOptions paymentOptions-NetBanking">NetBanking</div>
+                  <div class="paymentOptions paymentOptions-EMI">EMI/Pay Later</div>
+                  <div class="paymentOptions paymentOptions-COD">Cash On Delivery</div>
+               </div>
+               <div class="payment-itemRight">
+                  <div class="PaymentCardContainer">
+                     <div class="payment-Heading">CREADIT/DEBIT CARD</div>
+                     <form class="cardDetailsContainer">
+                        <input
+                           class="cardNumber"
+                           maxlength="16"
+                           minlength="16"
+                           value=""
+                           type="number"
+                           placeholder="Card Number"
+                        />
+                        <input class="cardName" type="text" maxlength="20" value="" placeholder="Name on Card" />
+                        <div class="cardExpiryContainer">
+                           <input class="cardExp" type="tel" minlength="5" value="" placeholder="Valid Thru(MM/YY)" />
+                           <input class="cardCVV" type="tel" minlength="4" value="" placeholder="CVV" />
+                        </div>
+                        <div class="buttonContainer">
+                           <button class="payment" type="submit">Pay</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+        <div id="billSection">
+
+            <h3>Price Details</h3>
+            <div>
+                <p>Total</p>
+                <p id="total"></p>
+            </div>
+            <div>
+                <p class="green">SPECIAL30 (30% OFF)</p>
+                <p class="green" id="discount"></p>
+            </div>
+            <div>
+                <p>Estimated GST</p>
+                <p id="gst"></p>
+            </div>
+            <div>
+                <p>Total Payable Amount</p>
+                <p id="payable"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    
+</body>
+<script src="payment.js"></script>
+</html>
