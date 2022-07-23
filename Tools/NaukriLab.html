@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+        body{
+            background-color: #FFFFFF;
+        }
+        #main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #one{
+            width: 70%;
+            display: flex;
+            margin-top: 50px
+        }
+        button{
+            width: 210px;
+            height: 130px;
+            border-radius: 5px;
+            box-shadow: 1px 4px 5px 0 #524c52;
+            border: 0px;
+            background-color: white;
+            cursor: pointer;
+        }
+        img{
+            width: 80px;
+            height: 65px;
+        }
+        #two{
+            width: 70%;
+            display: flex;
+            margin-top: 30px;
+            margin-bottom: 100px;
+        }
+        #b1{
+            width: 25%;
+            margin-right: 20px;
+            text-align: center;
+        }
+        #b2{
+            width: 25%;
+            margin-right: 20px;
+            text-align: center;
+        }
+        #b3{
+            width: 25%;
+            margin-right: 20px;
+            text-align: center;
+        }
+        #b4{
+            width: 25%;
+            margin-right: 20px;
+            text-align: center;
+        }
+        #b5{
+            width: 25%;
+            margin-right: 20px;
+            text-align: center;
+            margin-left: 0%;
+        }
+        #b6{
+            width: 25%;
+            margin-right: 20px;
+            text-align: center;
+            margin-left: 0%;
+        }
+        #b7{
+            width: 25%;
+            margin-right: 20px;
+            text-align: center;
+            margin-left: 0%;
+        }
+        #b8{
+            width: 25%;
+        }
+        h3{
+            color: #333333;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        p{
+            color: #333333;
+            font-size: 14px;
+        }
+        span{
+            color: #5e81f4;
+            margin-left: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="one"></div>
+
+        <div id="two"></div>
+</body>
+</html>
+
+<script type="module">
+
+import one from './NaukriLab/one.js'
+
+document.getElementById('one').innerHTML = one()
+
+import two from './NaukriLab/two.js'
+
+document.getElementById('two').innerHTML = two()
+
+</script>
