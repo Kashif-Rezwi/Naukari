@@ -80,6 +80,7 @@
         }
         #para1 span{
             color: #5E81F4;
+            cursor: pointer;
         }
         #para1{
             margin-right: 20px;
@@ -113,10 +114,10 @@
     </style>
 </head>
 <body>
+    <!-- <div>navbar</div> -->
     <div id="dashboard">
         <div id="one"></div>
 
-        <!-- <div id="div"></div> -->
         <div id="paradiv">
             <h2 id="header1">Your next career move</h2>
             <p id="para1">Profile not updated? <span>Edit</span></p>
@@ -125,7 +126,9 @@
         <div id="two"></div>
     
         <div id="three"></div>
+
     </div>
+        <!-- <div>footer</div> -->
 </body>
 </html>
 <script type="module">
@@ -141,9 +144,5 @@ document.getElementById('two').innerHTML = two()
 import three from './js2/NCMthree.js'
 
 document.getElementById('three').innerHTML = three()
-
-// import div from './js2/NCM.js'
-
-// document.getElementById('div').innerHTML = div()
 
 </script>

@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        body{
+            background-color: #F3F3F3;
+        }
+        #main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;
+        }
+        #search{
+            width: 620px;
+            height: 40px;
+        }
+        #one{
+            width: 100%;
+            text-align: center;
+            height: 372px;
+            background-color: white;
+            margin-left: -3%;
+            margin-right: -3%;
+        }
+
+        img{
+            width: 20px;
+            height: 15px;
+        }
+        #b1{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            width: 620px;
+            height: 130px;
+        }
+        #inbox{
+            display: flex;
+            flex-wrap: wrap;
+            height: 110px;
+            font-size: 12px;
+        }
+        #inbox1{
+            display: flex;
+            margin-left: 10px;
+        }
+        #inbox2{
+            display: flex;
+            margin-right: 20px;
+            margin-top: 15px;
+        }
+        .P_box{
+            padding: 5px 10px 5px 10px;
+            background-color: #3872B7;
+            margin-right: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .P_box:hover{
+            background-color: #5589c9;
+        }
+        #b1P{
+            display: flex;
+            font-size: 14px;
+            width: 130px;
+            color: #5E81F4;
+            text-align: justify;
+            font-weight: bold;
+        }
+        #two{
+            display: flex;
+            width: 70%;
+            justify-content: center;
+            margin: auto;
+        }
+        #three{
+            display: flex;
+            width: 70%;
+            justify-content: center;
+            margin: auto;
+        }
+        #box1{
+            display: block;
+            width: 250px;
+            height: 380px;
+            border: 1px solid rgb(182, 182, 182);
+            margin-right: 25px;
+            background-color: white;
+            line-height: 2;
+            overflow-wrap: break-word;
+            margin-bottom: 80px;
+            margin-top: 40px;
+            border-radius: 5px;
+        }
+        #box2{
+            display: block;
+            width: 250px;
+            height: 380px;
+            border: 1px solid rgb(182, 182, 182);
+            margin-right: 25px;
+            background-color: white;
+            line-height: 2;
+            overflow-wrap: break-word;
+            border-radius: 5px;
+            margin-bottom: 80px;
+        }
+        #box3{
+            display: block;
+            width: 250px;
+            height: 380px;
+            border: 1px solid rgb(182, 182, 182);
+            margin-right: 25px;
+            background-color: white;
+            line-height: 1;
+            overflow-wrap: break-word;
+            border-radius: 5px;
+            margin-bottom: 80px;
+        }
+        .two_p{
+            font-size: 14px;
+            width: 175px;
+            height: auto;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            padding-left: 20px;
+            cursor: pointer;
+        }
+        .two_p:hover{
+            color: #5e81f4;
+        }
+        .three_p{
+            font-size: 14px;
+            width: 175px;
+            height: auto;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            padding-left: 20px;
+            cursor: pointer;
+        }
+        .three_p:hover{
+            color: #5e81f4;
+        }
+        .three_p1{
+            font-size: 14px;
+            width: 175px;
+            height: auto;
+            padding-left: 20px;
+            cursor: pointer;
+        }
+        .three_p1:hover{
+            color: #5e81f4;
+        }
+        h4{
+            padding-left: 20px;
+            font-size: 14px;
+            margin-bottom: 0%;
+            color: #5E81F4;
+        }
+        #btn{
+            width: max-content;
+            font-size: 12px;
+            margin-left: 20px;
+            padding: 6px 10px;
+            background-color: #5E81F4;
+            color: white;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+
+        <div id="one">
+
+        </div>
+
+        <div id="two">
+
+        </div>
+    
+        <div id="three">
+
+        </div>
+
+    </div>
+</body>
+</html>
+
+<script type="module">
+
+    import one from './TechCareer/one.js'
+    
+    document.getElementById('one').innerHTML = one()
+    
+    import two from './TechCareer/two.js'
+    
+    document.getElementById('two').innerHTML = two()
+    
+    import three from './TechCareer/three.js'
+    
+    document.getElementById('three').innerHTML = three()
+
+</script>

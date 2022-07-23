@@ -1,0 +1,351 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            text-decoration: none;
+        }
+        body{
+            background-color: #F3F3F3;
+        }
+        #main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;
+        }
+        #search{
+            width: 620px;
+            height: 40px;
+            border: 0px;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #one{
+            width: 100%;
+            text-align: center;
+            height: 372px;
+            background-color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 6%! important;
+        }
+        #b1{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            width: 620px;
+            height: 130px;
+            margin-top: 10px;
+        }
+        #inbox{
+            display: flex;
+            flex-wrap: wrap;
+            height: 110px;
+            font-size: 12px;
+        }
+        #inbox1{
+            display: flex;
+            margin-left: 10px;
+        }
+        .P_box{
+            padding: 5px 10px 5px 10px;
+            background-color: #3872B7;
+            margin-right: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .P_box:hover{
+            background-color: #5589c9;
+        }
+        h4{
+            padding-left: 20px;
+            font-size: 14px;
+            margin-bottom: 0%;
+            color: #5E81F4;
+        }
+        #b1P{
+            display: flex;
+            font-size: 14px;
+            width: 130px;
+            color: #5E81F4;
+            text-align: justify;
+            font-weight: bold;
+        }
+        #two{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        #box2{
+            width: 75%;
+            margin-bottom: 20px;
+        }
+        #two_h3{
+            font-size: 26px;
+            color: #5E81F4;
+            font-weight: bold;
+        }
+        #two_b1{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            margin-top: 100px;
+        }
+        .card{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 0 0 7px -1px #bdbcbc;
+            cursor: pointer;
+        }
+        .image1{
+            width: 71px;
+            height: 66px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+        .two_p{
+            font-size: 14px;
+            color: #333333;
+            font-weight: bold;
+        }
+        #three{
+            width: 100%;
+            height: auto;
+            display: flex;
+            background-color: white;
+            padding-bottom: 30px;
+        }
+        #box3{
+            width: 70%;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+
+        .sec_1,.sec_2,.sec_3{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        .card1, .card2, .card3{
+            display: block;
+            text-align: center;
+            border-radius: 5px;
+            width: 150px;
+            height: 140px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            background-color: #3872B7;
+        }
+        .card1>img,.card2>img,.card3>img{
+            width: 42.5px;
+            height: 40px;
+            margin-top: 30px;
+        }
+        .card1>p,.card2>p,.card3>p{
+            padding-top: 10px;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        #view{
+            display: flex;
+            justify-content: space-between;
+        }
+        #view>p{
+            color: #5E81F4;
+            cursor: pointer;
+            margin-right: 20px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        #four{
+            width: 100%;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        tr, td{
+            border-top: 1px solid #d3d3d3;
+        }
+        #lavender{
+            background-color: #e6e6fa;
+            border: 1px solid #e6e6e6;
+        }
+        #box4{
+            display: block;
+            text-align: center;
+            width: 70%;
+        }
+        #b4_title{
+            color: #5E81F4;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        #b4_search{
+            width: 400px;
+            height: 38px;
+            margin-bottom: 50px;
+        }
+        #b4_para{
+            width: 70%;
+            font-size: 16px;
+        }
+        table{
+            width: 70%;text-align: center;
+            margin-bottom: 30px;
+        }
+        td{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .link{
+            font-size: 12px;
+            color: #4D92E2;
+            cursor: pointer;
+        }
+        #b4_last{
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        #b4_last>span{
+            margin-top: 15px;
+            font-size: 12px;
+        }
+        #b4_last>div{
+            display: flex;
+            margin-right: 40px;
+        }
+        #b4_last>div span,#b4_last>div p{
+            margin-right: 10px;
+            font-size: 14px;
+        }
+        #b4_last>div span,#b4_last>div>span span{
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        #five{
+            width: 100%;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: white;
+        }
+        .img1{
+            width: 30px;
+            height: 26px;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        #six{
+            width: 100%;
+            height: auto;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px 10px 30px 20px;
+            margin-top: 30px;
+        }
+        #b6{
+            display: flex;
+            margin: auto;
+            width: 32%;
+            line-height: 1;
+        }
+        #b6_para{
+            display: flex;
+            margin: auto;
+            width: 32%;
+            line-height: 1;
+        }
+        #b6_p{
+            text-align: center;
+            font-size: 12px;
+        }
+
+        #six_last{
+            display: block;
+            width: 50%;
+            margin: auto;
+            text-align: right;
+            border: 1px solid #333333;
+            padding: 20px;
+        }
+        #six_last>input{
+            width: 100%;
+            height: 32px;
+            border: 0px;
+        }
+        #six_last>button{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 6.4px 16px;
+            border-radius: 8px;
+            color: white;
+            background-color: #4A90E2;
+            border: 0px;
+        }
+        .img2{
+            width: 30px;
+            height: 26px;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="one"></div>
+
+        <div id="two"></div>
+    
+        <div id="three"></div>
+    
+        <div id="four"></div>
+    
+        <div id="five"></div>
+    
+        <div id="six"></div>
+    </div>
+</body>
+</html>
+
+<script type="module">
+
+import one from './SkillsTrends/one.js'
+
+document.getElementById('one').innerHTML = one()
+
+import two from './SkillsTrends/two.js'
+
+document.getElementById('two').innerHTML = two()
+
+import three from './SkillsTrends/three.js'
+
+document.getElementById('three').innerHTML = three()
+
+import four from './SkillsTrends/four.js'
+
+document.getElementById('four').innerHTML = four()
+
+import five from './SkillsTrends/five.js'
+
+document.getElementById('five').innerHTML = five()
+
+import six from './SkillsTrends/six.js'
+
+document.getElementById('six').innerHTML = six()
+
+</script>
