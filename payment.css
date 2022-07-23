@@ -1,0 +1,210 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* navbar */
+
+#navbar {
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px, rgba(17, 17, 26, 0.05) 0px 0px 32px;
+
+}
+
+#navbar>img {
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: 0px 30px 0px 30px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#billSection {
+    padding: 20px;
+    width: 250px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+#billSection > h3{
+    width: 100%;
+}
+
+#billSection > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#billSection > div:last-child {
+    border-top: 1px solid lightgray;
+    padding-top: 5px;
+}
+
+.green {
+    color: rgb(2, 187, 2);
+}
+
+#shield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shield > div{
+    margin: 5px 10px;
+}
+
+#shield > div > p:first-child{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#shield > div > p:last-child{
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+}
+
+.paymentContainer {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0px 20px;
+    padding: 10px 20px 20px 20px;
+ }
+
+ .payment-Heading {
+    font-size: 14px;
+    margin: 5px;
+    font-weight: bold;
+    color: gray;
+ }
+
+ .payment-item {
+    display: flex;
+    border: 1px solid #eaeaec;
+    margin: 0px;
+ }
+ .payment-itemLeft {
+    width: 30%;
+    background-color: #f4f4f5;
+    margin: 0px;
+ }
+ .paymentOptions {
+    padding: 0px 10px;
+    margin: 0px;
+    border-bottom: 1px solid #eaeaec;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #424553;
+    font-size: 14px;
+ }
+ .paymentOptions-Card {
+    background-color: white;
+ }
+ .payment-itemRight {
+    width: 70%;
+    padding: 8px 20px;
+ }
+ .cardDetailsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+ }
+ .cardExpiryContainer {
+    display: flex;
+    justify-content: space-between;
+ }
+ input {
+    height: 35px;
+    outline: none;
+    border: 1px solid #d4d5d9;
+    padding: 0px 10px;
+    border-radius: 2px;
+ }
+ .buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+ }
+ .payment {
+    font-size: 12px;
+    min-width: 100px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+
+ .payment:hover {
+    background-color: red;
+ }
+
+ /* Right Block */
+ .block > .right-block {
+    width: 45%;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+ }
+ 
+ .order-btn {
+    display: none;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 16px;
+    background-color: rgb(255, 63, 108);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+ }
