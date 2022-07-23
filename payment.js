@@ -33,4 +33,6 @@ document.querySelector(".payment").addEventListener("click", (event) => {
  
  appendPrice();
 
- 
+ import { reserved } from "./common/common.js";
+
+document.querySelector("#reserve").innerHTML = reserved();

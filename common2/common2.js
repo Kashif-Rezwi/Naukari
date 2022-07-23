@@ -160,5 +160,12 @@ let FOOTER = () => {
     `
 }
 
+let DISCOUNT = () => {
+    return `
+    <h4>Flat 30% OFF on All Services</h4>
+    <h4>Promo code NAUK30, Valid till 26-Jul-2022</h4>
+    `
+}
 
-export { NAVBAR, FOOTER};
+
+export { NAVBAR, FOOTER, DISCOUNT};

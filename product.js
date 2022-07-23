@@ -41,3 +41,8 @@ appendData();
 document.querySelector("#buyNow").addEventListener("click", () => {
     window.location.href = "payment.html"
 })
+
+import { searchBox, partner, reserved } from "./common/common.js";
+
+document.querySelector("#imageSlider2").innerHTML = partner();
+document.querySelector("#reserve").innerHTML = reserved();
