@@ -49,11 +49,11 @@ let navbar = ()=>{
                 <div class="hover-on-manubar"><a class="text-decoration-none" href="/Tools/CareerDash.html">TOOLS</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
-                            <li><a href="/Tools/CareerDash.html">Career Dashboard</a></li>
-                            <li><a href="/Tools/NextCareerMove.html">Your next Career move</a></li>
-                            <li><a href="/Tools/SkillsTrends.html">Skills Trends</a></li>
-                            <li><a href="/Tools/NaukriLab.html">Naukri Lab</a></li>
-                            <li><a href="/Tools/TechCareer.html">Teach Career</a></li>
+                            <li><a class="A_links"href="/Tools/CareerDash.html">Career Dashboard</a></li>
+                            <li><a class="A_links"href="/Tools/NextCareerMove.html">Your next Career move</a></li>
+                            <li><a class="A_links"href="/Tools/SkillsTrends.html">Skills Trends</a></li>
+                            <li><a class="A_links"href="/Tools/NaukriLab.html">Naukri Lab</a></li>
+                            <li><a class="A_links"href="/Tools/TechCareer.html">Teach Career</a></li>
                         </ul>
                     </div>
                 </div>
