@@ -15,6 +15,7 @@
             background-color: gainsboro;
             display: flex;
             justify-content: center;
+            margin: 0px;
         }
 
         * {
@@ -23,10 +24,16 @@
             font-family: Arial;
         }
 
+        #navbar{
+            padding-bottom: 100px;
+        }
+
         #mainB {
             border: 1px solid black;
             width: 80%;
             background-color: white;
+            margin: auto;
+            margin-top: 50px;
         }
 
         #B1 {
@@ -120,44 +127,64 @@
             margin-right: 10px;
         }
     </style>
+                <link rel="stylesheet" href="/Tools/common/footer.css">
+                <link rel="stylesheet" href="/Tools/common/navbar.css">
+                <link rel="stylesheet" href="/Tools/common/searchBox.css">
 </head>
 <body>
+    <div id="layout">
+
+        <div id="navbar"></div>
+        <div id="MainBoxSearch"></div>
     <div id="mainB">
         <div id="B1"></div>
         <div id="tab"></div>
         <div id="Cmpny">
-            <a href="./V.html">V2 Retail Jobs</a>
-            <a href="./V.html">V2Soft Jobs</a>
-            <a href="./V.html">VERTEX Jobs</a>
-            <a href="./V.html">VFS Global Jobs</a>
-            <a href="./V.html">VLCC Jobs</a>
-            <a href="./V.html">VVF Jobs</a>
-            <a href="./V.html">Valtech Jobs</a>
-            <a href="./V.html">ValueLabs Jobs</a>
-            <a href="./V.html">Vasan Health Care Jobs</a>
-            <a href="./V.html">Vascon Engineers Jobs</a>
-            <a href="./V.html">Vatika Group Jobs</a>
-            <a href="./V.html">Vayama Jobs</a>
-            <a href="./V.html">Veljan Investments Jobs</a>
-            <a href="./V.html">Verizon Jobs</a>
-            <a href="./V.html">Videocon Industries Jobs</a>
-            <a href="./V.html">Videocon Telecomm. Jobs</a>
-            <a href="./V.html">Vigneshwara Group Jobs</a>
-            <a href="./V.html">Viom Jobs</a>
-            <a href="./V.html">Virtela Jobs</a>
-            <a href="./V.html">Virtusa Consulting Jobs</a>
-            <a href="./V.html">VMware Jobs</a>
-            <a href="./V.html">Vodafone Jobs</a>
-            <a href="./V.html">Voltas Jobs</a>
-            <a href="./V.html">Voltech Jobs</a>
-            <a href="./V.html">Vyom Labs Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">V2 Retail Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">V2Soft Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">VERTEX Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">VFS Global Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">VLCC Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">VVF Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Valtech Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">ValueLabs Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Vasan Health Care Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Vascon Engineers Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Vatika Group Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Vayama Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Veljan Investments Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Verizon Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Videocon Industries Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Videocon Telecomm. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Vigneshwara Group Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Viom Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Virtela Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Virtusa Consulting Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">VMware Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Vodafone Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Voltas Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Voltech Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Vyom Labs Jobs</a>
         </div>
     </div>
 
+    <div id="footer" style="background-color: #2e3339; margin-top:60px;"></div>
+</div>
 </body>
 </html>
 
 <script type="module">
+        import searchBox from "/Tools/common/searchBox.js"
+
+document.getElementById('MainBoxSearch').innerHTML = searchBox()
+
+    import navbar from "/Tools/common/navbar.js"
+
+    document.getElementById('navbar').innerHTML = navbar()
+
+    import footer from "/Tools/common/footer.js"
+
+    document.getElementById('footer').innerHTML = footer()
 
     import B1 from './script/one.js'
 

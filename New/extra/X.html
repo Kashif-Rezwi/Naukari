@@ -14,6 +14,7 @@
             background-color: gainsboro;
             display: flex;
             justify-content: center;
+            margin: 0px;
         }
 
         * {
@@ -22,10 +23,16 @@
             font-family: Arial;
         }
 
+        #navbar{
+            padding-bottom: 100px;
+        }
+
         #mainB {
             border: 1px solid black;
             width: 80%;
             background-color: white;
+            margin: auto;
+            margin-top: 50px;
         }
 
         #B1 {
@@ -119,39 +126,58 @@
             margin-right: 10px;
         }
     </style>
+                <link rel="stylesheet" href="/Tools/common/footer.css">
+                <link rel="stylesheet" href="/Tools/common/navbar.css">
+                <link rel="stylesheet" href="/Tools/common/searchBox.css">
 </head>
 <body>
+    <div id="layout">
+
+        <div id="navbar"></div>
+        <div id="MainBoxSearch"></div>
     <div id="mainB">
         <div id="B1"></div>
         <div id="tab"></div>
         <div id="Cmpny">
-            <a href="./X.html">XACTLY TECHNOLOGIES INDIA PVT. LTD. Jobs</a>
-            <a href="./X.html">Xavient Software Solutions India Pvt Ltd Jobs</a>
-            <a href="./X.html">Xcaliber Infotech Pvt Ltd Jobs</a>
-            <a href="./X.html">Xceedance Consulting India Pvt. Ltd. Jobs</a>
-            <a href="./X.html">XcellHost Cloud Services Pvt. Ltd. Jobs</a>
-            <a href="./X.html">XDuce Technologies Pvt. Ltd. Jobs</a>
-            <a href="./X.html">Xebia IT Architects India Pvt Ltd Jobs</a>
-            <a href="./X.html">Xerox Technology Services India LLP Jobs</a>
-            <a href="./X.html">Xiphias Software Technologies Private Limited Jobs</a>
-            <a href="./X.html">XL Dynamics India Pvt. Ltd. Jobs</a>
-            <a href="./X.html">XL India Business Services Pvt. Ltd. Jobs</a>
-            <a href="./X.html">Xoriant Solutions Pvt Ltd Jobs</a>
-            <a href="./X.html">Xotik Frujus Pvt. Ltd. Jobs</a>
-            <a href="./X.html">Xpanxion International Pvt Ltd Jobs</a>
-            <a href="./X.html">Xpert Conexions Jobs</a>
-            <a href="./X.html">XPHENO PRIVATE LIMITED Jobs</a>
-            <a href="./X.html">Xponential Data and Business Services Pvt Ltd Jobs</a>
-            <a href="./X.html">Xtreme Media Private Limited Jobs</a>
-            <a href="./X.html">Xybion India Private Limited Jobs</a>
-            <a href="./X.html">XZED SKILLS PRIVATE LIMITED Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">XACTLY TECHNOLOGIES INDIA PVT. LTD. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xavient Software Solutions India Pvt Ltd Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xcaliber Infotech Pvt Ltd Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xceedance Consulting India Pvt. Ltd. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">XcellHost Cloud Services Pvt. Ltd. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">XDuce Technologies Pvt. Ltd. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xebia IT Architects India Pvt Ltd Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xerox Technology Services India LLP Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xiphias Software Technologies Private Limited Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">XL Dynamics India Pvt. Ltd. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">XL India Business Services Pvt. Ltd. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xoriant Solutions Pvt Ltd Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xotik Frujus Pvt. Ltd. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xpanxion International Pvt Ltd Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xpert Conexions Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">XPHENO PRIVATE LIMITED Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xponential Data and Business Services Pvt Ltd Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xtreme Media Private Limited Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Xybion India Private Limited Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">XZED SKILLS PRIVATE LIMITED Jobs</a>
         </div>
     </div>
 
+    <div id="footer" style="background-color: #2e3339; margin-top:60px;"></div>
+</div>
 </body>
 </html>
 
 <script type="module">
+    import searchBox from "/Tools/common/searchBox.js"
+
+    document.getElementById('MainBoxSearch').innerHTML = searchBox()
+    import navbar from "/Tools/common/navbar.js"
+
+    document.getElementById('navbar').innerHTML = navbar()
+
+    import footer from "/Tools/common/footer.js"
+
+    document.getElementById('footer').innerHTML = footer()
 
     import B1 from './script/one.js'
 

@@ -14,6 +14,7 @@
             background-color: gainsboro;
             display: flex;
             justify-content: center;
+            margin: 0px;
         }
 
         * {
@@ -22,10 +23,16 @@
             font-family: Arial;
         }
 
+        #navbar{
+            padding-bottom: 100px;
+        }
+
         #mainB {
             border: 1px solid black;
             width: 80%;
             background-color: white;
+            margin: auto;
+            margin-top: 50px;
         }
 
         #B1 {
@@ -119,37 +126,56 @@
             margin-right: 10px;
         }
     </style>
+                <link rel="stylesheet" href="/Tools/common/footer.css">
+                <link rel="stylesheet" href="/Tools/common/navbar.css">
+                <link rel="stylesheet" href="/Tools/common/searchBox.css">
 </head>
 <body>
+    <div id="layout">
+
+        <div id="navbar"></div>
+        <div id="MainBoxSearch"></div>
     <div id="mainB">
         <div id="B1"></div>
         <div id="tab"></div>
         <div id="Cmpny">
-            <a href="./Y.html">Y-Axis Solutions Pvt. Ltd. Jobs</a>
-            <a href="./Y.html">Yamaha Motor Solutions India Pvt. Ltd. Jobs</a>
-            <a href="./Y.html">YAN IT SOLUTIONS PVT LTD Jobs</a>
-            <a href="./Y.html">Yash Technologies Pvt ltd Jobs</a>
-            <a href="./Y.html">YASHAM SPECIALITY INGREDIENTS PVT LTD Jobs</a>
-            <a href="./Y.html">Yashco Systems Jobs</a>
-            <a href="./Y.html">Yashoda Hospital and Research Centre Limited Jobs</a>
-            <a href="./Y.html">Yashoda Super Speciality Hospital Jobs</a>
-            <a href="./Y.html">Yashraj Biotechnology Ltd Jobs</a>
-            <a href="./Y.html">YAZAKI INDIA Private Limited Jobs</a>
-            <a href="./Y.html">Yes Bank Ltd Jobs</a>
-            <a href="./Y.html">yewale Amruttulya Jobs</a>
-            <a href="./Y.html">Yodlee Infotech Private Limited Jobs</a>
-            <a href="./Y.html">Yogayatan Ports Private Limited Jobs</a>
-            <a href="./Y.html">Your Pitchh Jobs</a>
-            <a href="./Y.html">Yuantai International Supply Chain Management Private Limited Jobs</a>
-            <a href="./Y.html">Yuhiro Technologies Private Limited Jobs</a>
-            <a href="./Y.html">Yusen Logistics (India) Private Limited Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Y-Axis Solutions Pvt. Ltd. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yamaha Motor Solutions India Pvt. Ltd. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">YAN IT SOLUTIONS PVT LTD Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yash Technologies Pvt ltd Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">YASHAM SPECIALITY INGREDIENTS PVT LTD Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yashco Systems Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yashoda Hospital and Research Centre Limited Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yashoda Super Speciality Hospital Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yashraj Biotechnology Ltd Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">YAZAKI INDIA Private Limited Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yes Bank Ltd Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">yewale Amruttulya Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yodlee Infotech Private Limited Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yogayatan Ports Private Limited Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Your Pitchh Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yuantai International Supply Chain Management Private Limited Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yuhiro Technologies Private Limited Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Yusen Logistics (India) Private Limited Jobs</a>
         </div>
     </div>
 
+    <div id="footer" style="background-color: #2e3339; margin-top:60px;"></div>
+</div>
 </body>
 </html>
 
 <script type="module">
+    import searchBox from "/Tools/common/searchBox.js"
+
+    document.getElementById('MainBoxSearch').innerHTML = searchBox()
+    import navbar from "/Tools/common/navbar.js"
+
+    document.getElementById('navbar').innerHTML = navbar()
+
+    import footer from "/Tools/common/footer.js"
+
+    document.getElementById('footer').innerHTML = footer()
 
     import B1 from './script/one.js'
 
