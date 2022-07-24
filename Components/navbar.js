@@ -1,7 +1,7 @@
 let navbar = ()=>{
     return `
     <div>
-            <div id="logo"><a href="https://www.naukri.com/mnjuser/homepage"><img src="https://static.naukri.com/s/4/100/i/naukri_Logo.png" alt="error"></a>
+            <div id="logo"><a href="job.html"><img src="https://static.naukri.com/s/4/100/i/naukri_Logo.png" alt="error"></a>
             </div>
             
             <div id="manubar">
@@ -22,7 +22,7 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="/messy-whip-9215/Rectuiters.html">RECRUITERS</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="Rectuiters.html">RECRUITERS</a>
                     <div class="sub-menu list-style drop-down">
                         <ul>
                             <li>Browse All Recruiters</li>
@@ -32,7 +32,7 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="/messy-whip-9215/New/main.html">COMPANIES</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="New/main.html">COMPANIES</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
                             <li>Browse All Companies</li>
@@ -46,7 +46,7 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="/messy-whip-9215/Tools/CareerDash.html">TOOLS</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="Tools/CareerDash.html">TOOLS</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
                             <li>Career Dashboard</li>
@@ -57,7 +57,7 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="/messy-whip-9215/services.html">SERVICES</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="services.html">SERVICES</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
                             <li class="heading">Resume Writing</li>

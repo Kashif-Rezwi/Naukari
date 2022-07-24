@@ -381,3 +381,7 @@ document.querySelector("#servicesPage").addEventListener("click", () => {
 document.querySelector("#logo").addEventListener("click", () => {
     window.location.href = "index.html"
 })
+
+document.querySelector("#logo").addEventListener("click", () => {
+    window.location.href = "job.html"
+})

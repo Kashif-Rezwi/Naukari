@@ -12,3 +12,7 @@ document.querySelector("#navbar").innerHTML = NAVBAR();
 document.querySelector("#servicesPage").addEventListener("click", () => {
     window.location.href = "services.html"
 })
+
+document.querySelector("#logo").addEventListener("click", () => {
+    window.location.href = "job.html"
+})
