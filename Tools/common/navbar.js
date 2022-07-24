@@ -32,7 +32,7 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="componey.html">COMPANIES</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="/New/main.html">COMPANIES</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
                             <li>Browse All Companies</li>
@@ -46,13 +46,14 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="">TOOLS</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="/Tools/CareerDash.html">TOOLS</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
-                            <li>Career Dashboard</li>
-                            <li>Your next Career move</li>
-                            <li>Skills Trends</li>
-                            <li>Naukri Lab</li>
+                            <li><a href="/Tools/CareerDash.html">Career Dashboard</a></li>
+                            <li><a href="/Tools/NextCareerMove.html">Your next Career move</a></li>
+                            <li><a href="/Tools/SkillsTrends.html">Skills Trends</a></li>
+                            <li><a href="/Tools/NaukriLab.html">Naukri Lab</a></li>
+                            <li><a href="/Tools/TechCareer.html">Teach Career</a></li>
                         </ul>
                     </div>
                 </div>
