@@ -14,6 +14,7 @@
             background-color: gainsboro;
             display: flex;
             justify-content: center;
+            margin: 0px;
         }
 
         * {
@@ -22,10 +23,16 @@
             font-family: Arial;
         }
 
+        #navbar{
+            padding-bottom: 100px;
+        }
+
         #mainB {
             border: 1px solid black;
             width: 80%;
             background-color: white;
+            margin: auto;
+            margin-top: 50px;
         }
 
         #B1 {
@@ -119,44 +126,64 @@
             margin-right: 10px;
         }
     </style>
+                <link rel="stylesheet" href="/Tools/common/footer.css">
+                <link rel="stylesheet" href="/Tools/common/navbar.css">
+                <link rel="stylesheet" href="/Tools/common/searchBox.css">
 </head>
 <body>
+    <div id="layout">
+
+        <div id="navbar"></div>
+        <div id="MainBoxSearch"></div>
     <div id="mainB">
         <div id="B1"></div>
         <div id="tab"></div>
         <div id="Cmpny">
-            <a href="./R.html">R K Swamy Hansa Group Jobs</a>
-            <a href="./R.html">R Systems Jobs</a>
-            <a href="./R.html">RBS India Development Jobs</a>
-            <a href="./R.html">RJ Corp Jobs</a>
-            <a href="./R.html">RMS Risk Mangement Jobs</a>
-            <a href="./R.html">RMSI Jobs</a>
-            <a href="./R.html">RR Donnelley Jobs</a>
-            <a href="./R.html">RSB Group Jobs</a>
-            <a href="./R.html">Radisson Jobs</a>
-            <a href="./R.html">Ranbaxy Laboratories Jobs</a>
-            <a href="./R.html">Raqmiyat Jobs</a>
-            <a href="./R.html">Ratnakar Bank Jobs</a>
-            <a href="./R.html">Redcentric Solutions Jobs</a>
-            <a href="./R.html">Reliance Capital Jobs</a>
-            <a href="./R.html">Reliance Comm. Jobs</a>
-            <a href="./R.html">Reliance Industries Jobs</a>
-            <a href="./R.html">Reliance Infra. Jobs</a>
-            <a href="./R.html">Reliance Power Jobs</a>
-            <a href="./R.html">Religare Services Jobs</a>
-            <a href="./R.html">Religare Technologies Jobs</a>
-            <a href="./R.html">Renault Nissan Tech Jobs</a>
-            <a href="./R.html">Replicon Software Jobs</a>
-            <a href="./R.html">Rockwell Automation Jobs</a>
-            <a href="./R.html">Rolta Jobs</a>
-            <a href="./R.html">Royal Enfield Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">R K Swamy Hansa Group Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">R Systems Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">RBS India Development Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">RJ Corp Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">RMS Risk Mangement Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">RMSI Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">RR Donnelley Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">RSB Group Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Radisson Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Ranbaxy Laboratories Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Raqmiyat Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Ratnakar Bank Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Redcentric Solutions Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Reliance Capital Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Reliance Comm. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Reliance Industries Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Reliance Infra. Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Reliance Power Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Religare Services Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Religare Technologies Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Renault Nissan Tech Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Replicon Software Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Rockwell Automation Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Rolta Jobs</a>
+            <a href="https://www.naukri.com/infosys-jobs-careers-410527" target="_blank">Royal Enfield Jobs</a>
         </div>
     </div>
 
+    <div id="footer" style="background-color: #2e3339; margin-top:60px;"></div>
+</div>
 </body>
 </html>
 
 <script type="module">
+        import searchBox from "/Tools/common/searchBox.js"
+
+document.getElementById('MainBoxSearch').innerHTML = searchBox()
+
+    import navbar from "/Tools/common/navbar.js"
+
+    document.getElementById('navbar').innerHTML = navbar()
+
+    import footer from "/Tools/common/footer.js"
+
+    document.getElementById('footer').innerHTML = footer()
 
     import B1 from './script/one.js'
 
