@@ -24,7 +24,7 @@ let productsData = [
         img8: "images2/keyFeatures.jpg",
         img9: "images2/resumeDisplay3.jpg",
         img10: "images2/resumeDisplay4.jpg",
-        img: "images/resumeDisplay.png",
+        img: "images3/resumeDisplay.png",
         product: "RESUME DISPLAY",
         description1: "Increase your Profile Visibility to recruiters upto 3 times.",
         description2: "Get a Featured Profile, Stand out and get noticed in recruiter eyes.",
@@ -58,7 +58,7 @@ let productsData = [
         img8: "images2/keyFeatures2.jpg",
         img9: "images2/priorityApplicant3.jpg",
         img10: "images2/priorityApplicant4.jpg",
-        img: "images/priorityApp.png",
+        img: "images3/priorityApp.png",
         product: "PRIORITY APPLICANT",
         description1: "Be a Priority Applicant & increase your chance of getting a call.",
         description2: "Be the first one to apply and catch recruiter attention.",
@@ -92,7 +92,7 @@ let productsData = [
         img8: "images2/keyFeatures3.jpg",
         img9: "images2/searchBooster3.jpg",
         img10: "images2/searchBooster4.jpg",
-        img: "images/jsb-homepage.png",
+        img: "images3/jsb-homepage.png",
         product: "JOB SEARCH BOOSTER",
         description1: "Boost your job search with referrals.",
         description2: "Take help from over 20,000 seniors in top companies like TCS, HCL, Accenture etc.",
@@ -126,7 +126,7 @@ let productsData = [
         img8: "images2/keyFeatures.jpg",
         img9: "images2/resumeDisplay3.jpg",
         img10: "images2/resumeDisplay4.jpg",
-        img: "images/resumeWriting.png",
+        img: "images3/resumeWriting.png",
         product: "RESUME WRITING",
         description1: "Standout from the crowd with our professionally written Resume by expert.",
         description2: "Resume that highlights your strengths and showcase your experience.",
@@ -160,7 +160,7 @@ let productsData = [
         img8: "images2/keyFeatures2.jpg",
         img9: "images2/priorityApplicant3.jpg",
         img10: "images2/priorityApplicant4.jpg",
-        img: "images/resumeScore.png",
+        img: "images3/resumeScore.png",
         product: "ONLINE RESUME BUILDER",
         description1: "Create a job-winning resume with our simple resume builder.",
         description2: "Get a Featured Resume, Stand out and get noticed in recruiter eyes.",
@@ -194,7 +194,7 @@ let productsData = [
         img8: "images2/keyFeatures3.jpg",
         img9: "images2/searchBooster3.jpg",
         img10: "images2/searchBooster4.jpg",
-        img: "images/subscriptionWidget.png",
+        img: "images3/subscriptionWidget.png",
         product: "JOB SEARCH",
         description1: "Subscribe to our Monthly Job Search Plan.",
         description2: "Key Benefits : CheckRank higher in Recruiter Searches, Priority Access to Jobs, Send message to Recruiter anytime",
@@ -228,7 +228,7 @@ let productsData = [
         img8: "images2/keyFeatures2.jpg",
         img9: "images2/priorityApplicant3.jpg",
         img10: "images2/priorityApplicant4.jpg",
-        img: "images/jobs.png",
+        img: "images3/jobs.png",
         product: "JOBS FOR YOU",
         description1: "Stand out as an Early Applicant with instant access to jobs.",
         description2: " Our experts will understand your job preference & set alerts. Instant job on SMS.",
@@ -262,7 +262,7 @@ let productsData = [
         img8: "images2/keyFeatures3.jpg",
         img9: "images2/searchBooster3.jpg",
         img10: "images2/searchBooster4.jpg",
-        img: "images/recruiterConn.png",
+        img: "images3/recruiterConn.png",
         product: "RECRUITER CONNECTION",
         description1: "Send personalized message to recruiters.",
         description2: "Search from a database of 1.6 Lakh recruiters and share your Naukri profile",
@@ -296,7 +296,7 @@ let productsData = [
         img8: "images2/keyFeatures.jpg",
         img9: "images2/resumeDisplay3.jpg",
         img10: "images2/resumeDisplay4.jpg",
-        img: "images/header-image.png",
+        img: "images3/header-image.png",
         product: "RESUME CRITIQUE",
         description1: "Get your resume reviewed and improve your job application.",
         description2: "Our experts will analyze your resume and send a detailed report.",
@@ -372,3 +372,12 @@ import { searchBox, partner, reserved } from "./common/common.js";
 
 document.querySelector("#imageSlider2").innerHTML = partner();
 document.querySelector("#reserve").innerHTML = reserved();
+
+document.querySelector("#servicesPage").addEventListener("click", () => {
+    window.location.href = "services.html"
+})
+
+
+document.querySelector("#logo").addEventListener("click", () => {
+    window.location.href = "index.html"
+})

@@ -84,7 +84,7 @@ let searchBox = () => {
         </div>
 
         <div id="sec2">
-            <img src="images/rightSearchDiv.jpg" alt="">
+            <img src="images3/rightSearchDiv.jpg" alt="">
         </div>
     `
 }

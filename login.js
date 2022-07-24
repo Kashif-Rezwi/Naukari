@@ -48,7 +48,8 @@ let LogIn = async () => {
             alert('please fil up all the input fields');
         } else if (!MyData.error) {
             alert('Login successfull');
-            window.location.href = "Naukari_Com(Project_Done)/messy-whip-9215/New folder/job.html"
+            window.location.href = "job.html"
         }
     }
 }
+

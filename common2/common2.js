@@ -1,11 +1,11 @@
 let NAVBAR = () => {
     return `
-    <img src="images/logo.png" alt="Myntra_logo" />
+    <img id="logo" src="images/logo.png" alt="Myntra_logo" />
 
         <div id="left">
             <div>
                 <div>
-                    <p href="#">MY SERVICES</p>
+                    <p id="servicesPage">MY SERVICES</p>
                 </div>
             </div>
 
