@@ -168,4 +168,5 @@ let DISCOUNT = () => {
 }
 
 
+
 export { NAVBAR, FOOTER, DISCOUNT};

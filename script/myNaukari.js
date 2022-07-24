@@ -1,4 +1,4 @@
-import navbar from "../Components/navbar.js.js";
+import navbar from "/Components/navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar()
 
@@ -28,7 +28,7 @@ close.addEventListener("click", () => {
 });
 
 
-let profileArray = JSON.parse(localStorage.getItem("details"))
+let profileArray = JSON.parse(localStorage.getItem("details")) || [];
 
 
 let Name = document.querySelector("#name")

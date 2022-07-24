@@ -5,7 +5,7 @@ let navbar = ()=>{
             </div>
             
             <div id="manubar">
-                <div class="hover-on-manubar"><a class="text-decoration-none" id="OK" href="">JOBS</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" id="OK" href="/job.html">JOBS</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
                             <li>Search Jobs</li>
@@ -22,7 +22,7 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="Rectuiters.html">RECRUITERS</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="/Rectuiters.html">RECRUITERS</a>
                     <div class="sub-menu list-style drop-down">
                         <ul>
                             <li>Browse All Recruiters</li>
@@ -32,7 +32,7 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="New/main.html">COMPANIES</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="/New/main.html">COMPANIES</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
                             <li>Browse All Companies</li>
@@ -46,7 +46,7 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="Tools/CareerDash.html">TOOLS</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="/Tools/CareerDash.html">TOOLS</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
                             <li>Career Dashboard</li>
@@ -57,7 +57,7 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="services.html">SERVICES</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="/services.html">SERVICES</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
                             <li class="heading">Resume Writing</li>
@@ -102,7 +102,7 @@ let navbar = ()=>{
                     </div>
                 </div>
 
-                <div class="hover-on-manubar"><a class="text-decoration-none" href="more.html">MORE</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none" href="#">MORE</a>
                     <div class="sub-menu drop-down list-style ">
                         <ul>
                             <li class="heading">Career Tools</li>
@@ -165,7 +165,7 @@ let navbar = ()=>{
             </div>
 
             <div id="my_naukri">
-                <div class="hover-on-manubar"><a class="text-decoration-none border-bottem" href="myNaukri.html">MY NAUKRI</a>
+                <div class="hover-on-manubar"><a class="text-decoration-none border-bottem" href="/myNaukri.html">MY NAUKRI</a>
                     <div class="sub-menu1 drop-down list-style ">
                         <ul>
                             <li>Edit Profile</li>
