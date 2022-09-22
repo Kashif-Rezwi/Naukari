@@ -12,8 +12,8 @@ JavaScript
 (No External Library Used)
 
 Features ✨
-Registration and Authentication process is done using API
-Cool multilevel Navigation bar.
+Registration and Authentication process is done using API,
+Cool multilevel Navigation bar,
 Dynamic Products using json data created with json-server.
 
 Contributors 😇
